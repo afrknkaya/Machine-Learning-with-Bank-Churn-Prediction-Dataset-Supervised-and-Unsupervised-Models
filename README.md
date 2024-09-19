@@ -63,6 +63,17 @@ Müşteri terkini tahmin etmek için kullanılan regresyon modelleri:
 
 -XGBoost Regression (XGBoost Regresyonu): XGBRegressor()
 
+
+# Gözetimsiz Öğrenme (Unsupervised Learning)
+Müşteri segmentasyonu için aşağıdaki gözetimsiz öğrenme algoritmaları kullanılmıştır:
+
+-KMeans Kümeleme
+
+-Principal Component Analysis (PCA): Veri boyutunu düşürmek ve daha anlamlı bileşenler elde etmek için kullanılmıştır.
+
+# Gözetimsiz Model Sonuçları
+Müşteriler belirli özelliklerine göre kümelere ayrılmıştır. Bu segmentasyon, bankanın hangi müşteri gruplarının daha fazla risk taşıdığı veya hangi grupların daha yüksek potansiyele sahip olduğunu anlamalarına yardımcı olabilir.
+
 # Değerlendirme Metrikleri
 Model performansını değerlendirmek için aşağıdaki metrikler kullanılmıştır:
 
@@ -74,15 +85,12 @@ Model performansını değerlendirmek için aşağıdaki metrikler kullanılmı�
 
 -F1 Score
 
-# Gözetimsiz Öğrenme (Unsupervised Learning)
-Müşteri segmentasyonu için aşağıdaki gözetimsiz öğrenme algoritmaları kullanılmıştır:
+-R-squared (R²)
 
--KMeans Kümeleme
+-Cross Validation
 
--Principal Component Analysis (PCA): Veri boyutunu düşürmek ve daha anlamlı bileşenler elde etmek için kullanılmıştır.
-
-# Gözetimsiz Model Sonuçları
-Müşteriler belirli özelliklerine göre kümelere ayrılmıştır. Bu segmentasyon, bankanın hangi müşteri gruplarının daha fazla risk taşıdığı veya hangi grupların daha yüksek potansiyele sahip olduğunu anlamalarına yardımcı olabilir.
+-Silhouette Score
 # Sonuç
 Bu proje, gözetimli öğrenme yöntemleriyle müşteri terkini tahmin etmek ve gözetimsiz öğrenme ile müşterileri gruplara ayırarak daha iyi bir müşteri yönetimi stratejisi geliştirmeyi amaçlamaktadır. Müşteri kaybını önleyebilecek stratejik kararlar alabilmek için kapsamlı veri analizi yapılmıştır.
+
 
