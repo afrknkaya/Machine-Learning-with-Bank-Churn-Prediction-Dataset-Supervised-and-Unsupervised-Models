@@ -1,5 +1,5 @@
 # Machine-Learning-with-Bank-Churn-Prediction-Dataset-Supervised-and-Unsupervised-Models
-#kaggle link
+# kaggle link
 https://www.kaggle.com/code/ahmetfurkankaya/first-machine-learning-project
 # Proje Amacı
 Bu proje, bir bankanın müşterilerinin terk edip etmeyeceğini tahmin etmek ve müşteri davranışlarını segmentlere ayırmak amacıyla hazırlanmıştır. Gözetimli 
